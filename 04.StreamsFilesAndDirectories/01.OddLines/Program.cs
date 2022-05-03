@@ -7,9 +7,9 @@ namespace _01.OddLines
     {
         static void Main(string[] args)
         {
-            string inputFilePath = @"..\..\..\..\Files\input.txt";
+            string inputFilePath = @"..\..\..\..\Files\01input.txt";
            // File.CreateText(@"..\..\..\Files\output.txt");
-            string outputFilePath = @"..\..\..\..\Files\output.txt";
+            string outputFilePath = @"..\..\..\..\Files\01output.txt";
             
 
             ExtractOddLines(inputFilePath, outputFilePath);
