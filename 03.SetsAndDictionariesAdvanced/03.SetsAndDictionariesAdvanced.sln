@@ -19,13 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.ParkingLot", "07.Parking
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.SoftUniParty", "08.SoftUniParty\08.SoftUniParty.csproj", "{39E049E5-4BA1-440C-8E4C-B3F19D4BDA1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.UniqueUsernames", "09.UniqueUsernames\09.UniqueUsernames.csproj", "{88697E65-62DD-454D-9ED7-413590CFFCA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.UniqueUsernames", "09.UniqueUsernames\09.UniqueUsernames.csproj", "{88697E65-62DD-454D-9ED7-413590CFFCA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.SetsOfElements", "10.SetsOfElements\10.SetsOfElements.csproj", "{CF605F69-9BD2-49FC-85BB-8434E32CA026}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.SetsOfElements", "10.SetsOfElements\10.SetsOfElements.csproj", "{CF605F69-9BD2-49FC-85BB-8434E32CA026}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.PeriodicTable", "11.PeriodicTable\11.PeriodicTable.csproj", "{D3555AA9-54FC-4048-8C47-3B0198019295}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.PeriodicTable", "11.PeriodicTable\11.PeriodicTable.csproj", "{D3555AA9-54FC-4048-8C47-3B0198019295}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.EvenTimes", "12.EvenTimes\12.EvenTimes.csproj", "{53F6D545-C1DE-4BAB-B3F0-60BB51DAFDE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12.EvenTimes", "12.EvenTimes\12.EvenTimes.csproj", "{53F6D545-C1DE-4BAB-B3F0-60BB51DAFDE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.CountSymbols", "13.CountSymbols\13.CountSymbols.csproj", "{69B6293C-EBB2-4C4A-A404-6E2B9FA08AFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.Wardrobe", "14.Wardrobe\14.Wardrobe.csproj", "{D6EFEDA9-A712-4992-B859-10A34692426B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{53F6D545-C1DE-4BAB-B3F0-60BB51DAFDE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53F6D545-C1DE-4BAB-B3F0-60BB51DAFDE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53F6D545-C1DE-4BAB-B3F0-60BB51DAFDE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B6293C-EBB2-4C4A-A404-6E2B9FA08AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B6293C-EBB2-4C4A-A404-6E2B9FA08AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B6293C-EBB2-4C4A-A404-6E2B9FA08AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B6293C-EBB2-4C4A-A404-6E2B9FA08AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6EFEDA9-A712-4992-B859-10A34692426B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6EFEDA9-A712-4992-B859-10A34692426B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6EFEDA9-A712-4992-B859-10A34692426B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6EFEDA9-A712-4992-B859-10A34692426B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
