@@ -4,7 +4,7 @@ using System.IO;
 
 namespace _04.MergeFiles
 {
-    //not working - has to be fixed
+    
 
     internal class Program
     {
