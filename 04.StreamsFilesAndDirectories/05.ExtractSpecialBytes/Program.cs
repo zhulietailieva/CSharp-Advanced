@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 
 namespace _05.ExtractSpecialBytes
@@ -24,8 +25,15 @@ namespace _05.ExtractSpecialBytes
                     bytes.Add(int.Parse(line));
                     line = bytesReader.ReadLine();
                 }
-            }
-            
+                ImageConverter imgCon = new ImageConverter();
+                byte[] imgToByte=(byte[]) imgCon.ConvertTo(binaryFilePath,typeof(byte[]));
+                for (int i = 0; i < bytes.Count; i++)
+                {
+                    if(imgToByte)
+                }
+               
+            }           
         }
+      
     }
 }
