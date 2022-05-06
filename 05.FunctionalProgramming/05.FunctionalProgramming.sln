@@ -9,23 +9,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.SumNumbers", "02.SumNumb
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.CountUppercaseWords", "03.CountUppercaseWords\03.CountUppercaseWords.csproj", "{B1499DBC-8602-4B53-BFEC-07FFC1C503CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.VAT", "04.VAT\04.VAT.csproj", "{2FAA482B-A809-4FD0-860F-DD45206CD1E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.VAT", "04.VAT\04.VAT.csproj", "{2FAA482B-A809-4FD0-860F-DD45206CD1E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.FilterByAge", "05.FilterByAge\05.FilterByAge.csproj", "{0D74F9E5-6830-46A2-A9BA-3F62E98DAF82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.FilterByAge", "05.FilterByAge\05.FilterByAge.csproj", "{0D74F9E5-6830-46A2-A9BA-3F62E98DAF82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.ActionPoint", "06.ActionPoint\06.ActionPoint.csproj", "{3FD0C89C-230B-4DAF-9A23-DA437FD9D969}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.ActionPoint", "06.ActionPoint\06.ActionPoint.csproj", "{3FD0C89C-230B-4DAF-9A23-DA437FD9D969}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.KnightsOfHonor", "07.KnightsOfHonor\07.KnightsOfHonor.csproj", "{9D6C9B13-9F24-4BD9-80D7-50EC2D609ACA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.KnightsOfHonor", "07.KnightsOfHonor\07.KnightsOfHonor.csproj", "{9D6C9B13-9F24-4BD9-80D7-50EC2D609ACA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.CustomMinFunction", "08.CustomMinFunction\08.CustomMinFunction.csproj", "{EFFF92F1-CE39-4A27-B64E-1F1F74B90741}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.CustomMinFunction", "08.CustomMinFunction\08.CustomMinFunction.csproj", "{EFFF92F1-CE39-4A27-B64E-1F1F74B90741}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.FindEvensOrOdds", "09.FindEvensOrOdds\09.FindEvensOrOdds.csproj", "{C4FC6A20-C170-4468-8958-12809CC43C18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.FindEvensOrOdds", "09.FindEvensOrOdds\09.FindEvensOrOdds.csproj", "{C4FC6A20-C170-4468-8958-12809CC43C18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.AppliedArithmetics", "10.AppliedArithmetics\10.AppliedArithmetics.csproj", "{D9355039-D25C-404E-B983-4E02AEC2BF07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.AppliedArithmetics", "10.AppliedArithmetics\10.AppliedArithmetics.csproj", "{D9355039-D25C-404E-B983-4E02AEC2BF07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.ReverseAndExclude", "11.ReverseAndExclude\11.ReverseAndExclude.csproj", "{E83F717A-7729-4D75-A9B5-4692DA2DC4A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.ReverseAndExclude", "11.ReverseAndExclude\11.ReverseAndExclude.csproj", "{E83F717A-7729-4D75-A9B5-4692DA2DC4A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.PredicateForNames", "12.PredicateForNames\12.PredicateForNames.csproj", "{7B9C9F50-A1A3-45FE-8FF6-102234EC4941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12.PredicateForNames", "12.PredicateForNames\12.PredicateForNames.csproj", "{7B9C9F50-A1A3-45FE-8FF6-102234EC4941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.ListOfPredicates", "13.ListOfPredicates\13.ListOfPredicates.csproj", "{6333D127-DE67-4818-91CA-4160FF5FE8DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.PredicateParty!", "13.PredicateParty!\13.PredicateParty!.csproj", "{649FC776-2F0F-4228-92BC-45A5286DC2B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.PartyReservationFilterModule", "14.PartyReservationFilterModule\14.PartyReservationFilterModule.csproj", "{BDBD9FB2-C377-47F4-A49B-89340B2262F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.TriFunction", "15.TriFunction\15.TriFunction.csproj", "{F0D79DE4-5B50-4612-BBF4-C484117EBE58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +89,22 @@ Global
 		{7B9C9F50-A1A3-45FE-8FF6-102234EC4941}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B9C9F50-A1A3-45FE-8FF6-102234EC4941}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B9C9F50-A1A3-45FE-8FF6-102234EC4941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6333D127-DE67-4818-91CA-4160FF5FE8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6333D127-DE67-4818-91CA-4160FF5FE8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6333D127-DE67-4818-91CA-4160FF5FE8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6333D127-DE67-4818-91CA-4160FF5FE8DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{649FC776-2F0F-4228-92BC-45A5286DC2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649FC776-2F0F-4228-92BC-45A5286DC2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649FC776-2F0F-4228-92BC-45A5286DC2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649FC776-2F0F-4228-92BC-45A5286DC2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDBD9FB2-C377-47F4-A49B-89340B2262F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDBD9FB2-C377-47F4-A49B-89340B2262F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDBD9FB2-C377-47F4-A49B-89340B2262F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDBD9FB2-C377-47F4-A49B-89340B2262F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0D79DE4-5B50-4612-BBF4-C484117EBE58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0D79DE4-5B50-4612-BBF4-C484117EBE58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0D79DE4-5B50-4612-BBF4-C484117EBE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0D79DE4-5B50-4612-BBF4-C484117EBE58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
