@@ -1,0 +1,39 @@
+Overview
+
+In this workshop, we will create our own custom data structures – a custom list, a custom stack and a custom queue. The custom list will have similar functionality to C# lists that you've used before. Our custom list will work only with integers for now, but this will be fixed later in the course. It will have the following functionality:
+
+· void Add(int element) – Adds the given element to the end of the list
+
+· int RemoveAt(int index) – Removes the element at the given index
+
+· bool Contains(int element) - Checks if the list contains the given element returns (True or False)
+
+· void Swap(int firstIndex, int secondIndex) - Swaps the elements at the given indexes
+
+Feel free to implement your functionality or to write the methods by yourself.
+
+The custom stack will also have similar functionality to the C# stack and again, we will make it work only with integers. Later on, we will learn how to implement it in a way that will allow us to work with any type. It will have the following functionality:
+
+· void Push(int element) – Adds the given element to the stack
+
+· int Pop() – Removes the last added element
+
+· int Peek() – Returns the last element in the stack without removing it
+
+· void ForEach(Action<int> action) – Goes through each of the elements in the stack
+
+Feel free to implement your functionality or to write the methods by yourself.
+
+The custom queue will also have similar functionality to the C# queue and again, we will make it work only with integers. Later on, we will learn how to implement it in a way that will allow us to work with any type. It will have the following functionality:
+
+· void Enqueue(int element) – Adds the given element to the queue
+
+· int Dequeue() – Removes the first element
+
+· int Peek() – Returns the first element in the queue without removing it
+
+· void Clear() – Delete all elements in the queue
+
+· void ForEach(Action<int> action) – Goes through each of the elements in the queue
+
+Feel free to implement your functionality or to write the methods by yourself.
