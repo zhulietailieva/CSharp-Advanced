@@ -28,9 +28,32 @@ namespace StartUp
             {
                 Console.WriteLine(x);
             });
-           customStack.Pop();
-            
-         
+            customStack.Pop();
+
+            //Testing customQueue struscture
+            CustomQueue customQueue = new CustomQueue();
+
+            customQueue.Enqueue(1);
+            customQueue.Enqueue(2);
+            customQueue.Enqueue(3);
+            customQueue.Enqueue(4);
+
+
+            customQueue.ForEach(element =>
+            {
+                Console.WriteLine(element);
+            });
+
+            Console.WriteLine(customQueue.Peek());
+             Console.WriteLine(customQueue.Dequeue());
+            Console.WriteLine(customQueue.Dequeue());
+            Console.WriteLine(customQueue.Dequeue());
+            Console.WriteLine(customQueue.Dequeue());
+           
+
+
+
+
         }
     }
 }
