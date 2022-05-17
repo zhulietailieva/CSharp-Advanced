@@ -6,27 +6,27 @@ using System.Threading.Tasks;
 
 namespace StartUp
 {
-    public class CustomQueue
+    public class CustomQueue<T>
     {
         private const int InitialCapacity = 4;
         private const int StartIndex= 0;
-        private int[] array;
+        private T[] array;
         public CustomQueue()
         {
-            array = new int[InitialCapacity];
+            array = new T[InitialCapacity];
            
 
         }
         
         public int Count { get; private set; }
-        public void Enqueue(int element)
+        public void Enqueue(T element)
         {
             Resize();
             array[Count] = element;
             Count++;
             
         }
-        public int Dequeue()
+        public T Dequeue()
         {
             if (Count == 0)
             {
@@ -43,7 +43,7 @@ namespace StartUp
             
             
         }
-        public int Peek()
+        public T Peek()
         {
             if (Count == 0)
             {
@@ -59,7 +59,7 @@ namespace StartUp
                 Dequeue();
             }
         }
-        public void ForEach(Action<int> action)
+        public void ForEach(Action<T> action)
         {
             for (int i = StartIndex; i < Count; i++)
             {
@@ -71,7 +71,7 @@ namespace StartUp
         {
             if (array.Length == Count)
             {
-                int[] copyArr = new int[array.Length * 2];
+                T[] copyArr = new T[array.Length * 2];
                 for (int i = 0; i < array.Length; i++)
                 {
                     copyArr[i] = array[i];

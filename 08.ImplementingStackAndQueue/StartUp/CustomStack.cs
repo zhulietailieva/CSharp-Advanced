@@ -6,27 +6,27 @@ using System.Threading.Tasks;
 
 namespace StartUp
 {
-    public class CustomStack
+    public class CustomStack<T>
     {
         private const int InitialCapacity = 4;
-        private int[] array;
+        private T[] array;
          public CustomStack()
         {
-            array = new int[InitialCapacity];
+            array = new T[InitialCapacity];
             Count = 0;
         }
         public int Count { get;private set; }
         
           
        
-        public void Push(int element)
+        public void Push(T element)
         {
 
             Resize();         
             array[Count] = element;
             Count++;
         }
-        public int Pop()
+        public T Pop()
         {
             if (Count == 0)
             {
@@ -35,7 +35,7 @@ namespace StartUp
             Count--;
             return array[Count];
         }
-        public int Peek()
+        public T Peek()
         {
             if (Count == 0)
             {
@@ -43,7 +43,7 @@ namespace StartUp
             }
             return array[Count - 1];
         }
-        public void ForEach(Action<int> action)
+        public void ForEach(Action<T> action)
         {
             for (int i = 0; i < Count; i++)
             {
@@ -55,7 +55,7 @@ namespace StartUp
         {
             if (Count==array.Length)
             {
-                int[] copyArr = new int[array.Length * 2];
+                T[] copyArr = new T[array.Length * 2];
                 for (int i = 0; i < array.Length; i++)
                 {
                     copyArr[i] = array[i];

@@ -7,7 +7,15 @@ namespace StartUp
         static void Main(string[] args)
         {
             //Testing CustomList structure
-            CustomList customList = new CustomList();
+            CustomList<int> customList = new CustomList<int>();
+            CustomList<string> customList1 = new CustomList<string>();
+
+            customList1.Add("Hello");
+            customList1.Add("Goodbye");
+            Console.WriteLine(customList1.Contains("Hello"));
+            Console.WriteLine(customList1.RemoveAt(1));
+            Console.WriteLine(customList1.Contains("Goodbye"));
+
             customList.Add(7);
             customList.Add(2);
             customList.Add(3);

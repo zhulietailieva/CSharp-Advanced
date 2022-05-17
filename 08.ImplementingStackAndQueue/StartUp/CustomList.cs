@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace StartUp
 {
-    public class CustomList
+    public class CustomList<T>
     {
-        private int[] array;
+        private T[] array;
         int counter;
         public CustomList()
         {
-            array = new int[2];
+            array = new T[2];
             counter = 0;
 
         }
@@ -23,7 +23,7 @@ namespace StartUp
                 return this.counter; 
             }  
         }
-        public int this[int i]
+        public T this[int i]
         {
             get
             {
@@ -36,18 +36,18 @@ namespace StartUp
                 array[i] = value;
             }
         }
-        public void Add(int element)
+        public void Add(T element)
         {
             Resize();
             array[counter] = element;
             counter++;
         }
-        public int getElement(int index)
+        public T getElement(int index)
         {
             EnsureIndexIsInRange(index);
             return array[index];
         }
-        public int RemoveAt(int index)
+        public T RemoveAt(int index)
         {
             EnsureIndexIsInRange(index);
             counter--;
@@ -57,11 +57,11 @@ namespace StartUp
             }
             return array[index];
         }
-        public bool Contains(int elemment)
+        public bool Contains(T elemment)
         {
             for (int i = 0; i < counter; i++)
             {
-                if (array[i] == elemment)
+                if (array[i].Equals( elemment))
                 {
                     return true;
                 }
@@ -72,13 +72,13 @@ namespace StartUp
         {
             EnsureIndexIsInRange(firstIndex);
             EnsureIndexIsInRange(secondIndex);
-            int temp = array[firstIndex];
+            T temp = array[firstIndex];
             array[firstIndex] = array[secondIndex];
             array[secondIndex] = temp;
         }
         public void Shrink()
         {
-            int[] newArray = new int[counter];
+            T[] newArray = new T[counter];
             for (int i = 0; i < counter; i++)
             {
                 newArray[i] = array[i];
@@ -89,7 +89,7 @@ namespace StartUp
         {
             if (counter >= array.Length)
             {
-                int[] copyArr = new int[array.Length * 2];
+                T[] copyArr = new T[array.Length * 2];
                 for (int i = 0; i < array.Length; i++)
                 {
                     copyArr[i] = array[i];
